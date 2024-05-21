@@ -41,4 +41,5 @@ Steps
 VISUAL UML sequence diagram
 
 
+<img width="970" alt="Quote Generator jpeg" src="https://github.com/yangluc552/CS361-Project/assets/167032588/4adf5984-9bf6-4123-8ee1-52480513d9df">
 
