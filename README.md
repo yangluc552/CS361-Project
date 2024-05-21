@@ -5,7 +5,25 @@ It simply waits for a request from the main program and then picks a random quot
 
 Request
 Enter 1 to generate a random quote or 2 to exit: 1
-writes to the txt file run this is the request message that the microserver is looping for 
+- writes to the txt file run this is the request message that the microserver is looping for
+
+Ex Code:
+
+while True:
+    choice = input("Enter 1 to generate a random quote or 2 to exit: ")
+    if choice == "1":
+        try:
+            fileToProcess = open("quote.txt", "w") 
+            fileToProcess.write("run\n")
+        except IOError:
+            print("Could not open file!")
+            continue
+
+        time.sleep(5)
+
+  this is an example request where once the choice to generate a quote is entered then it will send a request "run" to the txt file
+
+
 
 Retrieve
 Reads in request by reading the txt file for a run, when the run is read in by the program it will continue on with generating a quote
@@ -18,3 +36,9 @@ Steps
 - Once the microservice reads in "run" it will generate the random quote and replace run with the quote
 - The main program will sleep and then wake up to read what was replaced in the text file
 - It will read the quote and print it back on the main program dedicated terminal
+
+
+VISUAL UML sequence diagram
+
+
+
