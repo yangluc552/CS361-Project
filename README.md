@@ -5,10 +5,10 @@ It simply waits for a request from the main program and then picks a random quot
 
 Request
 Enter 1 to generate a random quote or 2 to exit: 1
-- writes to the txt file run this is the request message that the microserver is looping for 
+writes to the txt file run this is the request message that the microserver is looping for 
 
 Retrieve
-- Reads in request by reading the txt file for a run, when the run is read in by the program it will continue on with generating a quote
+Reads in request by reading the txt file for a run, when the run is read in by the program it will continue on with generating a quote
 
 
 - In two terminals run the main program and the microservie.
