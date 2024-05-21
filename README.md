@@ -10,7 +10,7 @@ writes to the txt file run this is the request message that the microserver is l
 Retrieve
 Reads in request by reading the txt file for a run, when the run is read in by the program it will continue on with generating a quote
 
-
+Steps 
 - In two terminals run the main program and the microservie.
 - In the main program enter the option to generate a random quote.
 - The main program will write to a txt file "run"
